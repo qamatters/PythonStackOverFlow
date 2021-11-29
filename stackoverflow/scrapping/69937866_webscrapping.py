@@ -1,10 +1,8 @@
-from telnetlib import EC
 from time import sleep, time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import re
-from selenium.webdriver.support.select import Select
-from selenium.webdriver.support.wait import WebDriverWait
+
 
 PATH = r"C:\Users\deepak.mathpal\IdeaProjects\Selenium4\src\main\resources\chromedriver_chrome_95\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
