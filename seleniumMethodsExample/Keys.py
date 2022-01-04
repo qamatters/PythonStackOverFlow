@@ -1,6 +1,6 @@
 from time import sleep
 from selenium import webdriver
-from selenium.webdriver import ActionChains, Keys
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 PATH = r"C:\Users\deepak.mathpal\IdeaProjects\Selenium4\src\main\resources\chromedriver_chrome_95\chromedriver.exe"

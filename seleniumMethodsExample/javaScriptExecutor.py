@@ -1,6 +1,7 @@
 from time import sleep
 
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
 PATH = r"C:\Users\deepak.mathpal\IdeaProjects\Selenium4\src\main\resources\chromedriver_chrome_95\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
